@@ -1,0 +1,124 @@
+body {
+    font-family: 'Song Myung', serif;
+    color: skyblue;
+}
+
+#cover {
+    height: 80%;
+    margin: 0 auto;
+}
+
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 20px;
+}
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+.question {
+    display: none;
+}
+
+button:active,
+button:hover,
+button:focus {
+  background: var(--button-hover-bg-color);
+  outline: 0;
+}
+button:disabled {
+  opacity: 0.5;
+}
+.ans-btn{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: white;
+  border: 2px solid skyblue;
+  border-radius: 25px;
+  color:black;
+  padding: 10px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  transition: 0.5s;
+}
+
+
+.result-title{
+    margin: 0 auto;
+}
+
+.result-title h1{
+    font-size: 30px;
+}
+.result #animal{
+    color: #3F78AC;
+}
+
+hr {
+    border-top: 3px double #bbb;
+    text-align: center;
+}
+hr:after {
+    content: '\002665';
+    display: inline-block;
+    position: relative;
+    top: -15px;
+    padding: 0 10px;
+    background: white;
+    color: #bbb;
+    font-size: 18px;
+}
+
+.box {
+    background-color:white;
+    height: 200px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+#img{
+    height: 200px;
+    margin: 0 auto;
+}
+
+.explain{
+    color: #3F78AC;
+    font-family: 'Nanum Gothic', sans-serif;
+    padding: 0 5%;
+}
+
+p{
+    color: black;
+    font-size: 15px;
+}
+
+.share {
+  margin: 0 auto;
+}
+.btn-info{
+  color: black;
+}
+.kakao_ad{
+  width: 320px;
+  margin: 0 auto;
+}
+
+.banner{
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.banner-img{
+  width:300px;
+}
