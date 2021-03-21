@@ -4,8 +4,9 @@ body {
 }
 
 #cover {
-    height: 80%;
-    margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
 }
 
 h2{
@@ -108,7 +109,7 @@ p{
   color: black;
 }
 .kakao_ad{
-  width: 320px;
+  width: 300px;
   margin: 0 auto;
 }
 
